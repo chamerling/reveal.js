@@ -1,4 +1,4 @@
-# Integration Platform as a Service...
+# Petals Platform as a Service
 
 
 
@@ -62,7 +62,7 @@ OW2 Petals Enterprise Service Bus
 
 
 
-## Using the iPaaS API
+## Using the Petals PaaS API
 
 #### Input
 
@@ -101,7 +101,7 @@ OW2 Petals Enterprise Service Bus
 
 ## The old way
 
->  You wil need a Java EE server, or a Node runtime, or an Apache+PHP+ xxx...
+>  You will need a Java EE server, or a Node runtime, or an Apache+PHP+ xxx...
 
 
 
@@ -114,12 +114,13 @@ OW2 Petals Enterprise Service Bus
 4. And then configure Petals &amp; co...
 5. ...
 6. ...
-7. ...
-8. Done!
+7. Coffee?
+8. ...
+9. Done!
 
 
 
-## TIME!
+## TIME! (and chance...)
 
 
 
@@ -228,7 +229,7 @@ Web app sample
 - OBM
 - LemonLDAP
 - OpenStack
-- iPaaS
+- Petals PaaS
 - ...
 
 

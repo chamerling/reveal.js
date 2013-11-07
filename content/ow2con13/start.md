@@ -1,4 +1,4 @@
-# iPaaS
+# Petals PaaS
 
 ## [@chamerling](http://twitter.com/chamerling)
 ### OW2Con'13
@@ -12,4 +12,16 @@
 
 
 
-# iPaaS & More!
+# Petals PaaS...
+
+
+
+# ...And more!
+
+
+
+# i.e. how we use it to build something cool...
+
+
+
+# ... and useful!
