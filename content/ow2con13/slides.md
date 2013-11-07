@@ -5,10 +5,10 @@
 ## Goals
 
 * Integrate heterogeneous services in the Cloud
-* On promise services
+* Corporate and private services
 * Public services
 * Orchestrate services
-* Create collaborations
+* Create collaborations!
 * Monitor, manage, ...
 * 'Hide' the integration complexity
 
@@ -16,11 +16,12 @@
 
 ## Based on...
 
-Petals Enterprise Service Bus
+OW2 Petals Enterprise Service Bus
 
 * SOA
-* Bind your services
-* Orchestration
+* Integrate heterogeneous services
+* Orchestre
+* Governance
 * Monitor
 * Manage
 * ...
@@ -35,14 +36,40 @@ Petals Enterprise Service Bus
 
 
 
-## Simple to use
+## Use case \#1
+### Bind a Web service
 
-Curl is enough!
+
+
+## Using Petals
+
+1. Deploy and start the SOAP Component
+2. Create a XML descriptor with required properties
+3. Create an archive with the XML descriptor and dependencies...
+4. Deploy the archive with JMX
+5. Wait...
+6. Done!
+
+
+
+## Requirements
+
+1. Read the Petals Documentation
+2. Install the right components
+3. Create the right XML file with the right schema (ok we also have tools for that)
+4. Use a JMX client or a Petals compliant library
+5. **TIME!**
+
+
+
+## Using the iPaaS API
+
+#### Input
 
     curl -X POST --data "wsdl=http://weather.com/service.wsdl"\ 
       http://ipaas.petalslink.org/services 
 
-.
+#### Output
 
     {
       'status'  : 'Created',
@@ -54,20 +81,104 @@ Curl is enough!
       },
       'url' : 'http://ipaas.petalslink.org/WeatherService',
       'wsdl' : 'http://ipaas.petalslink.org/WeatherService?wsdl',
+      'created_at' : '2013-09-10 2:09:54PMT',
+      'version' : '1.0',
       ...
     }
 
 
 
-## Monitor Flows
+## Requirements
+
+1. curl    
+
+
+
+## Use Case \#2
+## Deploy a Web service...
+
+
+
+## The old way
+
+>  You wil need a Java EE server, or a Node runtime, or an Apache+PHP+ xxx...
+
+
+
+## The old way
+
+0. Be sure you can install something new...
+1. Download the right version
+2. Install, configure, etc...
+3. Upload your WAR, node app, anything...
+4. And then configure Petals &amp; co...
+5. ...
+6. ...
+7. ...
+8. Done!
+
+
+
+## TIME!
+
+
+
+## The iPaaS way!
+
+    curl -X POST -data='amwesomeservice.war' http://ipaas.petalslink.org/services
+
+.
+
+    {
+      'status'  : 'Created',
+      'service' : {
+        'id' : '92993JMZ310-9837',
+        'endpoint' : 'AwesomeEndpoint',
+        'interface' : 'AwesomePort',
+        'service' : 'AwesomeService'
+      },
+      'url' : 'http://ipaas.petalslink.org/AwesomeService',
+      'wsdl' : 'http://ipaas.petalslink.org/AwesomeService?wsdl',
+      'created_at' : '2013-09-11 2:10:54PMT',
+      'version' : '1.0',
+      'source' : 'awesome.war',
+      ...
+    }
+
+
+
+### Behind the scene...
+
+1. Detect incoming archive type 
+2. If needed, deploy the right server on the right place VM@IaaS
+3. Add some hooks
+4. Configure Petals to support deployed service
+5. Deploy archive
+6. Bind the service to petals
+
+
+
+## Tools
+
+
+
+### Multi IaaS Engine
+
+
+
+### Monitoring
 
 <img src="./img/petals_flow.jpg"/>
 
 
 
-## Manage
+### Management
 
 Web app sample
+
+
+
+### And many Cloud Controllers...
 
 
 
@@ -91,6 +202,14 @@ Web app sample
 
 
 
+# We build the next generation of Open Source Software for entreprise communication in the Cloud
+
+
+
+<img src="./img/rse.png"/>
+
+
+
 <img src="./img/openpaas.png"/>
 
 
@@ -108,15 +227,9 @@ Web app sample
 - nodejs
 - OBM
 - LemonLDAP
+- OpenStack
+- iPaaS
 - ...
-
-
-## Muti-IaaS
-
-* Deployment
-* Management
-* Broker (Hi petals!)
-* ...
 
 
 
@@ -126,18 +239,24 @@ Web app sample
 
 ## What's next? \#1
 
-> Code to be published on Petals @ OW2 for the iPaaS - Q1 2014
+> iPaaS to be published on Petals @ OW2
+
+> Q1 2014
 
 
 
-## What's next?? \#2
+## What's next??? \#2
 
-> Open PaaS @ OW2? To be discussed...
+> New project for Multi IaaS deployment @ OW2
+
+> Q1 2014
 
 
 
-## What's next??? \#3
+## What's next?? \#3
 
-> New project for Multi IaaS deployment @ OW2 - Q1 2014
+> Open PaaS @ OW2?
+
+> To be discussed...
 
 
