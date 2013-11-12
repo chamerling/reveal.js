@@ -1,3 +1,7 @@
+# Part I
+
+
+
 # Petals Platform as a Service
 
 
@@ -20,7 +24,7 @@ OW2 Petals Enterprise Service Bus
 
 * SOA
 * Integrate heterogeneous services
-* Orchestre
+* Orchestration
 * Governance
 * Monitor
 * Manage
@@ -110,7 +114,7 @@ OW2 Petals Enterprise Service Bus
 0. Be sure you can install something new...
 1. Download the right version
 2. Install, configure, etc...
-3. Upload your WAR, node app, anything...
+3. Upload your WAR, web app, anything...
 4. And then configure Petals &amp; co...
 5. ...
 6. ...
@@ -155,7 +159,8 @@ OW2 Petals Enterprise Service Bus
 3. Add some hooks
 4. Configure Petals to support deployed service
 5. Deploy archive
-6. Bind the service to petals
+6. Bind the service to petals (all the configuration stuff)
+7. Add Petals nodes at the right place if needed...
 
 
 
@@ -167,23 +172,32 @@ OW2 Petals Enterprise Service Bus
 
 
 
-### Monitoring
-
-<img src="./img/petals_flow.jpg"/>
+Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS...
 
 
 
-### Management
+#### Use case
 
-Web app sample
-
-
-
-### And many Cloud Controllers...
-
+* My Petals platform is running on EC2
+* It runs tens of Petals nodes
+* What if I want to add a new Petals node to my architecture
+* Running on my brand new OpenStack platform?
 
 
-# Usage
+
+#### Multi IaaS engine is able to
+
+* Deploy new node on OpenStack
+* Reconfigure all other nodes running on EC2
+* In an automatic way!
+
+
+
+## Petals v5 Features!
+
+
+
+# Part II
 
 
 
@@ -215,21 +229,34 @@ Web app sample
 
 
 
-## Architecture
+# API(s)!!!
 
-...
+
+
+### User-level
+
+* Agenda, Contact, Feed, Chat, Phone, Feed, Search...
+
+* Create mashups, orchestrate, integrate, add your own APIs...
+
+
+
+### Technical-level
+
+* Deploy and manage runtimes, IaaS, ...
+* **Hello Multi IaaS!!!**
 
 
 
 ## 'Cool stuff inside' tm
 
+- Petals PaaS
 - MongoDB
 - Cassandra
 - nodejs
 - OBM
 - LemonLDAP
 - OpenStack
-- Petals PaaS
 - ...
 
 
@@ -240,7 +267,7 @@ Web app sample
 
 ## What's next? \#1
 
-> iPaaS to be published on Petals @ OW2
+> Petals PaaS to be published on Petals @ OW2
 
 > Q1 2014
 
@@ -248,7 +275,7 @@ Web app sample
 
 ## What's next??? \#2
 
-> New project for Multi IaaS deployment @ OW2
+> New project for Multi IaaS deployment and management @ OW2
 
 > Q1 2014
 

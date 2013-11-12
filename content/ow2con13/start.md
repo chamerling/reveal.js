@@ -24,4 +24,4 @@
 
 
 
-# ... and useful!
+# ... using OSS stuff!
