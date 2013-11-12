@@ -21,7 +21,3 @@
 
 
 # i.e. how we use it to build something cool...
-
-
-
-# ... using OSS stuff!
