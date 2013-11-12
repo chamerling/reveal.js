@@ -213,7 +213,7 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 
 ## Blah blah blah...
 
-> The Open PaaS project aims at developing a PaaS (Platform as a Service) technology dedicated to enterprise collaborative applications deployed on hybrid clouds (private / public). OpenPaaS is a platform that allow to design and deploy applications based on proven technologies provided by partners such as collaborative messaging system, integration and workflow technologies that will be extended in order to address Cloud Computing requirements.
+> The Open PaaS project aims at developing a **PaaS** (Platform as a Service) technology dedicated to enterprise **collaborative** applications deployed on **hybrid** clouds (private / public). OpenPaaS is a platform that allow to design and deploy applications based on proven technologies provided by partners such as collaborative **messaging** system, **integration** and **workflow** technologies that will be extended in order to address Cloud Computing requirements.
 
 
 
@@ -229,25 +229,6 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 
 
 
-# API(s)!!!
-
-
-
-### User-level
-
-* Agenda, Contact, Feed, Chat, Phone, Feed, Search...
-
-* Create mashups, orchestrate, integrate, add your own APIs...
-
-
-
-### Technical-level
-
-* Deploy and manage runtimes, IaaS, ...
-* **Hello Multi IaaS!!!**
-
-
-
 ## 'Cool stuff inside' tm
 
 - Petals PaaS
@@ -258,6 +239,29 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 - LemonLDAP
 - OpenStack
 - ...
+
+
+
+# API(s)!!!
+
+
+
+### User-level
+
+* Agenda, Contact, Feed, Chat, Phone, Feed, Search...
+
+
+
+### User++-level
+
+* Create mashups, orchestrate, integrate, add your own APIs...
+
+
+
+### Technical-level
+
+* Deploy and manage runtimes, IaaS, ...
+* **Hello Multi IaaS!!!**
 
 
 
@@ -286,5 +290,3 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 > Open PaaS @ OW2?
 
 > To be discussed...
-
-
