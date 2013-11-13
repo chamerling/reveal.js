@@ -6,18 +6,6 @@
 
 
 
-## Goals
-
-* Integrate heterogeneous services in the Cloud
-* Corporate and private services
-* Public services
-* Orchestrate services
-* Create collaborations!
-* Monitor, manage, ...
-* 'Hide' the integration complexity
-
-
-
 ## Based on...
 
 OW2 Petals Enterprise Service Bus
@@ -37,6 +25,20 @@ OW2 Petals Enterprise Service Bus
 * Storage
 * NoSQL
 * Tools, tools, tools!!!
+
+
+
+## Goals
+
+* Integrate heterogeneous services
+* Corporate and private services
+* Public services
+* Orchestrate services
+* Create collaborations!
+* Monitor, manage, ...
+* 'Hide' the integration complexity
+
+* **In the Cloud**
 
 
 
@@ -60,7 +62,7 @@ OW2 Petals Enterprise Service Bus
 
 1. Read the Petals Documentation
 2. Install the right components
-3. Create the right XML file with the right schema (ok we also have tools for that)
+3. Create the right XML file with the right schema
 4. Use a JMX client or a Petals compliant library
 5. **TIME!**
 
@@ -71,7 +73,7 @@ OW2 Petals Enterprise Service Bus
 #### Input
 
     curl -X POST --data "wsdl=http://weather.com/service.wsdl"\ 
-      http://ipaas.petalslink.org/services 
+      http://paas.petalslink.org/services 
 
 #### Output
 
@@ -105,15 +107,7 @@ OW2 Petals Enterprise Service Bus
 
 ## The old way
 
->  You will need a Java EE server, or a Node runtime, or an Apache+PHP+ xxx...
-
-
-
-## The old way
-
-0. Be sure you can install something new...
-1. Download the right version
-2. Install, configure, etc...
+2. Install, configure your web server...
 3. Upload your WAR, web app, anything...
 4. And then configure Petals &amp; co...
 5. ...
@@ -128,9 +122,9 @@ OW2 Petals Enterprise Service Bus
 
 
 
-## The iPaaS way!
+## The Petals PaaS
 
-    curl -X POST -data='amwesomeservice.war' http://ipaas.petalslink.org/services
+    curl -X POST -data='amwesomeservice.war' http://paas.petalslink.org/services
 
 .
 
@@ -164,11 +158,13 @@ OW2 Petals Enterprise Service Bus
 
 
 
-## Tools
+## We need Tools
+
+### to Manage & Monitor runtimes and IaaS, ...
 
 
 
-### Multi IaaS Engine
+## Multi IaaS Engine
 
 
 
@@ -201,7 +197,7 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 
 
 
-# Let's build an Open and Social PaaS!
+# Let's build an Open and Social PaaS
 
 
 
@@ -255,13 +251,6 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 ### User++-level
 
 * Create mashups, orchestrate, integrate, add your own APIs...
-
-
-
-### Technical-level
-
-* Deploy and manage runtimes, IaaS, ...
-* **Hello Multi IaaS!!!**
 
 
 
