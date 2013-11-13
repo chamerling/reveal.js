@@ -20,10 +20,11 @@ OW2 Petals Enterprise Service Bus
 
 
 
-## and on many other things!
+## and on many other things...
 
 * Storage
 * NoSQL
+* IaaS
 * Tools, tools, tools!!!
 
 
@@ -118,13 +119,9 @@ OW2 Petals Enterprise Service Bus
 
 
 
-## TIME! (and chance...)
-
-
-
 ## The Petals PaaS
 
-    curl -X POST -data='amwesomeservice.war' http://paas.petalslink.org/services
+    curl -F 'file=@amwesomeservice.war' http://paas.petalslink.org/services
 
 .
 
@@ -166,8 +163,6 @@ OW2 Petals Enterprise Service Bus
 
 ## Multi IaaS Engine
 
-
-
 Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS...
 
 
@@ -185,6 +180,7 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 
 * Deploy new node on OpenStack
 * Reconfigure all other nodes running on EC2
+* Add gateways to create communication links between IaaS
 * In an automatic way!
 
 
@@ -197,7 +193,7 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 
 
 
-# Let's build an Open and Social PaaS
+## Let's build the next generation of Open Source Software for entreprise communication in the Cloud
 
 
 
@@ -213,7 +209,7 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 
 
 
-# We build the next generation of Open Source Software for entreprise communication in the Cloud
+<img src="./img/openpaas.png"/>
 
 
 
@@ -221,18 +217,14 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 
 
 
-<img src="./img/openpaas.png"/>
-
-
-
 ## 'Cool stuff inside' tm
 
 - Petals PaaS
+- LemonLDAP
+- OBM
 - MongoDB
 - Cassandra
 - nodejs
-- OBM
-- LemonLDAP
 - OpenStack
 - ...
 
@@ -251,6 +243,12 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 ### User++-level
 
 * Create mashups, orchestrate, integrate, add your own APIs...
+
+
+
+### PaaS level
+
+Manage all the runtimes with simple APIs...
 
 
 
