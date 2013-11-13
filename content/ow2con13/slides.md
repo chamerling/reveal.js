@@ -119,7 +119,7 @@ OW2 Petals Enterprise Service Bus
 
 
 
-## The Petals PaaS
+## The Petals PaaS way
 
     curl -F 'file=@amwesomeservice.war' http://paas.petalslink.org/services
 
@@ -157,7 +157,7 @@ OW2 Petals Enterprise Service Bus
 
 ## We need Tools
 
-### to Manage & Monitor runtimes and IaaS, ...
+### to Manage & Monitor runtimes & IaaS, ...
 
 
 
@@ -219,9 +219,9 @@ Used to deploy and dynamically configure (distributed) runtimes on multiple IaaS
 
 ## 'Cool stuff inside' tm
 
-- Petals PaaS
-- LemonLDAP
-- OBM
+- OW2 Petals PaaS
+- OW2 LemonLDAP
+- Linagora OBM
 - MongoDB
 - Cassandra
 - nodejs
@@ -252,7 +252,7 @@ Manage all the runtimes with simple APIs...
 
 
 
-# What's Next???
+# What's Next?
 
 
 
