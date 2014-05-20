@@ -1,4 +1,4 @@
-# XMPP et Hiveety
+# XMPP
 
 eXensible Message and Presence Protocol
 
@@ -10,7 +10,7 @@ eXensible Message and Presence Protocol
 * Born in 1998
 
 
-## Liens avec Hiveety
+## Liens avec le RSE
 
 - Implémenter (au moins) le chat et la présence
 
@@ -20,9 +20,7 @@ eXensible Message and Presence Protocol
 
 
 
-## Architecture
-
-
+## 'Architecture'
 
 - Echange de messages XML sur TCP/IP
 - Architecture client-serveur et serveur-serveur
@@ -73,7 +71,7 @@ eXensible Message and Presence Protocol
 
 ## Groupes
 
-<img src="./img/rse.png">
+cf rse@conference.linagora.com
 
 
 
@@ -121,13 +119,6 @@ eXensible Message and Presence Protocol
 
 
 
-## Oui mais bon...
-
-- C'est le code client de l'application qui gère l'instance du client XMPP
-- Moins facile de de gérer les interactions client/serveur, sauf si on maitrise le serveur XMPP
-
-
-
 ## Let's Hack!
 
 - node-xmpp-server: Serveur XMPP en node
@@ -160,4 +151,4 @@ client.end();
 
 
 
-# Discutons
+# Discussions
